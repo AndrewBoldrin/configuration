@@ -1,0 +1,22 @@
+{
+  "vim.foldfix": true,
+    // custom vim
+      "vim.normalModeKeyBindingsNonRecursive": [
+          {
+                "before": ["<leader>", "e"],
+                      "commands": ["workbench.action.toggleSidebarVisibility"]
+                          },
+                              {
+                                    "before": ["<leader>", "l"],
+                                          "commands": ["workbench.action.moveEditorToNextGroup"]
+                                              },
+                                                  {
+                                                        "before": ["<leader>", "h"],
+                                                              "commands": ["workbench.action.moveEditorToPreviousGroup"]
+                                                                  },
+                                                                      {
+                                                                            "before": ["<leader>", "f"],
+                                                                                  "commands": ["workbench.action.quickOpen"]
+                                                                                      },
+                                                                                        ],
+                                                                                          "vim.leader": "<space>",
